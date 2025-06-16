@@ -5,7 +5,7 @@ This project provides a modular, production-grade data engineering pipeline to i
 
 ## 📁 Folder Structure
 
-```css
+```
 health-insurance-rate-data-etl/
 ├── .gitignore
 ├── LICENSE                  # MIT license (see below)
@@ -14,8 +14,8 @@ health-insurance-rate-data-etl/
 ├── data/
 │   ├── bronze/
 │   ├── silver/
-│   ├── gold
-│   └── meta_data_files    
+│   ├── gold/
+│   └── meta_data_files/  
 │ 
 ├── configurations/
 │   └── config.json          # Paths and filenames config
