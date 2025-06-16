@@ -54,38 +54,20 @@ health-insurance-rate-data-etl/
 ### 🔹 Create Environment
 
 ```bash
-conda create --name hinsurance-etl python=3.10
-conda activate hinsurance-etl
+conda create --name <<your-env-name>> python=3.10
+conda activate <<your-env-name>>
 pip install -r requirements.txt
 ```
 
 > Optional: For running notebooks interactively
 ```bash
 conda install ipykernel
-python -m ipykernel install --user --name=hinsurance-etl --display-name "Python (hinsurance-etl)"
+python -m ipykernel install --user --name=<<your-env-name>> --display-name "<<your-env-name>>"
 ```
 
 ## ☕ Java Requirements
 
-Ensure Java 11 is available for Spark:
-
-```bash
-# View Java version
-java -version
-
-# On macOS, use Homebrew:
-brew install openjdk@11
-```
-
-Set your environment:
-
-```bash
-export JAVA_HOME="/usr/local/opt/openjdk@11"
-export PATH="$JAVA_HOME/bin:$PATH"
-```
-
-Or use a local JDK path via `.env` or hardcoded in `dataframe_utils.py`.
-
+Ensure Java is available for Spark (Java 17) and paths are set
 
 ## 🧪 Running the Pipeline
 
