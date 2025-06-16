@@ -1,0 +1,9 @@
+apis:
+    health_insurance_rate_puf:
+        description: Public Use File API for Health Rate Data
+        version: 1
+        endpoint: https://data.healthcare.gov/api/1/metastore/schemas/dataset/items/672d5f6a-b8a7-4ebe-87f6-67db641e192d
+        method: GET
+        params: []
+        response:
+            format: JSON

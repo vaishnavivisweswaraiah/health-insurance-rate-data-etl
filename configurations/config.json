@@ -1,0 +1,7 @@
+{
+  "api_config_path":"configurations/api_config.yaml",
+  "metadata_path": "data/meta_data_files/health_insurance_rate_puf.json",
+  "download_dir": "data/bronze",
+  "silver_parquet_path": "data/silver/",
+  "gold_parquet_path": "data/gold/"
+}

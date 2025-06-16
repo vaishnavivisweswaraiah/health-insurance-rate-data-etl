@@ -2,7 +2,6 @@
 
 This project provides a modular, production-grade data engineering pipeline to ingest, transform, and enrich U.S. health insurance rate data using Spark and Python. It follows the Bronze → Silver → Gold architecture and includes optional orchestration using [Papermill](https://papermill.readthedocs.io/en/latest/).
 
----
 
 ## 📁 Folder Structure
 
@@ -38,7 +37,6 @@ health-insurance-rate-data-etl/
 ├── orchestrate.py           # Papermill-based orchestration
 
 ```
----
 
 ## 🚀 Features
 
@@ -50,7 +48,6 @@ health-insurance-rate-data-etl/
 - ⚙️ Papermill-based orchestration
 - 🔁 Configurable paths and filenames via JSON
 
----
 
 ## 🔧 Setup
 
@@ -67,8 +64,6 @@ pip install -r requirements.txt
 conda install ipykernel
 python -m ipykernel install --user --name=hinsurance-etl --display-name "Python (hinsurance-etl)"
 ```
-
----
 
 ## ☕ Java Requirements
 
@@ -91,7 +86,6 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 Or use a local JDK path via `.env` or hardcoded in `dataframe_utils.py`.
 
----
 
 ## 🧪 Running the Pipeline
 
@@ -111,7 +105,6 @@ python orchestrate.py
 
 This will inject paths and execute each notebook in order.
 
----
 
 ## 📊 Data Quality Checks
 
@@ -121,21 +114,17 @@ Implemented in `src/utils/data_quality_utils.py`:
 - Ensure valid age ranges and 2-letter state codes
 - Raise descriptive exceptions if checks fail
 
----
 
 ## 📜 License
 
 This project is licensed under the MIT License.  
-See the [LICENSE](LICENSE) file for full terms.
-
----
+See the [MIT License](LICENSE) file for full terms.
 
 ## 🤝 Contributing
 
 Feel free to fork, suggest improvements, or open issues.  
 This is designed as an open learning resource and modular data engineering foundation.
 
----
 
 ## 👀 Roadmap
 

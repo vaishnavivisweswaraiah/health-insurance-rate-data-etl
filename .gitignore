@@ -1,0 +1,22 @@
+# Ignore Python bytecode
+__pycache__/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
+
+# Ignore data files
+data/
+
+# Ignore notebook output directories
+notebooks/output/
+
+# OS specific files
+.DS_Store
+
