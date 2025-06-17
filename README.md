@@ -106,12 +106,3 @@ See the [MIT License](LICENSE) file for full terms.
 
 Feel free to fork, suggest improvements, or open issues.  
 This is designed as an open learning resource and modular data engineering foundation.
-
-
-## 👀 Roadmap
-
-- ✅ Bronze → Silver → Gold data architecture implemented
-- ✅ Config-driven API ingestion and transformation notebooks
-- ✅ Papermill-based orchestration with parameter injection
-- ✅ Basic data quality checks (nulls, formats, ranges)
-- 🌟 Build GenAI-based Insurance Agent using LangChain/OpenAI (separate repo)
